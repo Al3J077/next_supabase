@@ -4,6 +4,7 @@ import { useState } from "react";
 import { supabase } from "@/lib/supabaseClient";
 // 👆 Importamos React y el cliente de Supabase que configuramos en /lib
 export default function RegisterPage() {
+    
 // 📦 Estados tipados con TypeScript
 const [nombre, setNombre] = useState<string>("");
 const [email, setEmail] = useState<string>("");
